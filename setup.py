@@ -122,6 +122,9 @@ requirements = [
     "social-auth-app-django>=3.1.0,<4.0.0",
     "dynaconf>=3.1.12",
     "django-auth-ldap==4.0.0",
+    "distro",
+    "boto3",
+    "insights_analytics_collector@git+https://git@github.com/RedHatInsights/insights-analytics-collector.git@main#egg=insights_analytics_collector"
 ]
 
 
